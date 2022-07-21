@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+
+/*css de 02_JSX_Bucle*/
+.listaBucle {
+  text-align: center;
+  list-style:none;
+}
+
+
+/*css de Y02ContadorClic*/
+.Contador {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1b1b32;
+  color: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.tituloClic {
+  font-size: 60px;
+  width: 1000px;
+}
+/*css de botones de clic*/
+.botonClic {
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: blue;
+
+}
+
+.botonReiniciar {
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: mediumvioletred;
+
+}
+
+.botonClic:hover {
+  background-color: aqua;
+}
+.botonReiniciar:hover {
+  background-color: aqua;
+}
+/*css de cuadroClic donde haya numero*/
+.cuadro {
+  min-width: 300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+  box-sizing: content-box;
+
+}
+
+
+/*css de Y03Calculadora*/
+/*boton de calculadora*/
+.boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
+
+.boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 45px;
+  cursor: pointer;      
+}
+
+.boton-clear:hover {
+  background-color: #ebb000;
+}
+/*pantalla de calculadora*/
+.input {
+  height: 75px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #0a0a23;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  margin: 1px solid #888;
+  box-shadow: -1px 4px 1px 1px white;
+}
+/*fondo de calculadora*/
+.calculadora {
+  height: 120vh;
+  padding-top: 10px;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.tituloCal {
+  font-size: 60px;
+  color: wheat;
+  width: 1000px;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freecodecamp-logo {
+  height: 40px;
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
